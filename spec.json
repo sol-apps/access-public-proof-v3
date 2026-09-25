@@ -4,7 +4,7 @@
   "description": "A minimal anonymous app used to verify the reviewed public deployment path.",
   "access": {
     "mode": "public",
-    "anonymous": ["GET /"]
+    "anonymous": ["GET /", "GET /design-system/styleguide.html"]
   },
   "runtime_shape": "static",
   "data_reach": "invented",
