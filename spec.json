@@ -1,0 +1,15 @@
+{
+  "title": "Public Access Proof",
+  "slug": "access-public-proof-v3",
+  "description": "A minimal anonymous app used to verify the reviewed public deployment path.",
+  "access": {
+    "mode": "public",
+    "anonymous": ["GET /", "GET /design-system/styleguide.html"]
+  },
+  "runtime_shape": "static",
+  "data_reach": "invented",
+  "blast_radius": "low",
+  "scopes": [],
+  "tier": "green",
+  "rationale": "Publishes one static proof page, stores no application data, and makes no external or identity-provider calls."
+}
